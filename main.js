@@ -4,10 +4,7 @@ const taskList = document.getElementById("lists")
 
 
 let allTasks = [
-    { id: 1136975216789, title: "Go for a Walk", isComplete: false },
-    { id: 2136975216789, title: "Go to Office", isComplete: false },
-    { id: 3136975216789, title: "Go to Market", isComplete: false },
-    { id: 4136975216789, title: "Take Some Groceries", isComplete: false }
+    { id: 1136975216789, title: "Add Your Task", isComplete: false }
 ]
 
 
