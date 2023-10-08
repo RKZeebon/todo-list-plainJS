@@ -71,14 +71,15 @@ h1 {
 }
 
 #lists>li {
-    margin-top: 10px;
+    list-style-type: none;
+    background-color: #ffffffa5;
     position: relative;
+    margin: 10px 0;
+    padding: 5px 0 5px 8px;
     border: 2px solid black;
     border-radius: 30px;
-    padding: 5px 0 5px 8px;
-    list-style-type: none;
     box-shadow: 5px 5px 15px black;
-    margin-bottom: 10px;
+
 }
 
 #lists>li:last-child {
