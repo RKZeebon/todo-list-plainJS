@@ -14,11 +14,12 @@
 .todo-body {
     background-color: rgb(186, 183, 183);
     width: 500px;
-    height: 650px;
+    height: 670px;
     margin: auto auto;
     box-shadow: 5px 5px 25px black, -5px -5px 25px black;
     border-radius: 30px;
     padding: 20px;
+
 }
 
 h1 {
@@ -64,6 +65,8 @@ h1 {
     margin-top: 20px;
     font-size: 1.5rem;
     padding: 0 20px;
+    height: 520px;
+    overflow: auto;
 
 }
 
@@ -74,7 +77,12 @@ h1 {
     border-radius: 30px;
     padding: 5px 0 5px 8px;
     list-style-type: none;
+    box-shadow: 5px 5px 15px black;
+    margin-bottom: 10px;
+}
 
+#lists>li:last-child {
+    box-shadow: 2px 2px 10px black;
 }
 
 .btn {
@@ -122,4 +130,18 @@ h1 {
 
 .disabled {
     cursor: not-allowed;
+}
+
+ul::-webkit-scrollbar {
+    width: 15px;
+}
+
+ul::-webkit-scrollbar-track {
+    background: lightgreen;
+}
+
+ul::-webkit-scrollbar-thumb {
+    background-color: green;
+    border-radius: 6px;
+
 }
